@@ -1,0 +1,18 @@
+{
+  "name": "react-fiber-playground",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.8.5"
+  },
+  "dependencies": {
+    "react": "file://../others/react/build/packages/react.tgz",
+    "react-dom": "file://../others/react/build/packages/react-dom.tgz"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
